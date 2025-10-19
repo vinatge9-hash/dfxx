@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Momentum Programs</title>
+  <!--  -->
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body style="font-family: 'Poppins', sans-serif;" class='bg-black text-white'>
+  <header class='sticky top-0 z-50 bg-black/70 backdrop-blur-md'>
+    <nav class='max-w-6xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='text-2xl font-bold'>Momentum</span>
+        <span class='text-sm text-gray-300 hidden sm:block'>Fitness Club</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6'>
+        <li><a href='index.html' class='hover:text-teal-300'>Home</a></li>
+        <li><a href='programs.html' class='hover:text-teal-300'>Programs</a></li>
+        <li><a href='coaches.html' class='hover:text-teal-300'>Coaches</a></li>
+        <li><a href='facilities.html' class='hover:text-teal-300'>Facilities</a></li>
+        <li><a href='locations.html' class='hover:text-teal-300'>Locations</a></li>
+        <li><a href='membership.html' class='hover:text-teal-300'>Membership</a></li>
+        <li><a href='blog.html' class='hover:text-teal-300'>Blog</a></li>
+        <li><a href='contact.html' class='hover:text-teal-300'>Contact</a></li>
+      </ul>
+      <a href='membership.html' class='hidden md:inline-block bg-teal-500 hover:bg-teal-600 text-black font-semibold px-4 py-2 rounded-full'>Join Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class='relative h-64 md:h-80 w-full overflow-hidden'>
+      <img src='https://images.pexels.com/photos/15863066/pexels-photo-15863066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Programs hero' class='absolute inset-0 w-full h-full object-cover' />
+      <div class='absolute inset-0 bg-gradient-to-r from-black/60 to-black/80'></div>
+      <div class='relative z-10 max-w-6xl mx-auto px-4 py-12'>
+        <h1 class='text-4xl md:text-5xl font-extrabold'>Explore Momentum Programs</h1>
+        <p class='mt-2 text-lg'>Structured workouts designed for all levels with measurable progress</p>
+      </div>
+    </section>
+
+    <!-- Filters & Programs Grid -->
+    <section class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <div class='mb-6 grid grid-cols-1 md:grid-cols-3 gap-4'>
+          <div class='col-span-1'>
+            <input aria-label='Search programs' placeholder='Search programs' class='w-full rounded-xl p-3 bg-gray-800 text-white focus:ring-2 focus:ring-teal-500 focus:outline-none' />
+          </div>
+          <select class='rounded-xl bg-gray-800 text-white p-3'>
+            <option>All levels</option>
+          </select>
+          <select class='rounded-xl bg-gray-800 text-white p-3'>
+            <option>Duration</option>
+          </select>
+        </div>
+
+        <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
+          <!-- Card 1 -->
+          <article class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow h-full'>
+            <img src='https://pixabay.com/get/g31bf2cea1a6b86e223d9ed76e3ef8912020926b928585c2fafd8ecee06f8781c1ebf6aab88d003a396cb7bd05265963422d1d2a15d48ee3a4fb530a95f7f41ae_640.jpg' alt='Program thumbnail' class='w-full h-40 object-cover rounded-xl' />
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Cardio Blast</h3>
+            <p class='text-sm text-gray-600'>Duration: 45 min | Intensity: High</p>
+            <div class='mt-4 flex gap-2'>
+              <a href='membership.html' class='px-4 py-2 rounded-full bg-teal-500 text-black font-semibold hover:bg-teal-600'>Join</a>
+              <a href='programs.html' class='px-4 py-2 rounded-full border border-teal-500 text-teal-500 hover:bg-teal-50'>Learn More</a>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow h-full'>
+            <img src='https://pixabay.com/get/g6eb940bb65b4ade4e1e1c4ae3679b54c31f9222ff290c4b45bdd110049208b7235eb2cc825714a20a670b40cf0fa92741de9b1cfb6225d74f6b139231c09ac2a_640.jpg' alt='Program thumbnail' class='w-full h-40 object-cover rounded-xl' />
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Strength Builder</h3>
+            <p class='text-sm text-gray-600'>Duration: 60 min | Intensity: Medium</p>
+            <div class='mt-4 flex gap-2'>
+              <a href='membership.html' class='px-4 py-2 rounded-full bg-teal-500 text-black font-semibold hover:bg-teal-600'>Join</a>
+              <a href='programs.html' class='px-4 py-2 rounded-full border border-teal-500 text-teal-500 hover:bg-teal-50'>Learn More</a>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow h-full'>
+            <img src='https://pixabay.com/get/gbb268e58036a25ac0369ab48a695e2b6652a8c0fb5a1b0c5f4dc3c13eac2d9986f2b008648ef57a2fc8895258014cd640d1ad9668f7fd8f4d480c059bdd6936b_640.jpg' alt='Program thumbnail' class='w-full h-40 object-cover rounded-xl' />
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Mobility & Core</h3>
+            <p class='text-sm text-gray-600'>Duration: 30 min | Intensity: Low</p>
+            <div class='mt-4 flex gap-2'>
+              <a href='membership.html' class='px-4 py-2 rounded-full bg-teal-500 text-black font-semibold hover:bg-teal-600'>Join</a>
+              <a href='programs.html' class='px-4 py-2 rounded-full border border-teal-500 text-teal-500 hover:bg-teal-50'>Learn More</a>
+            </div>
+          </article>
+          <!-- Card 4 -->
+          <article class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow h-full'>
+            <img src='https://pixabay.com/get/g3d362d12a0efd1434b6dd9d04ef58ce33b3d9c4334522891ee5ae32a83116cc98bdf2970fcc152593cb203150245c09697f233c20ed8da936f7ec9011c1c1bad_640.jpg' alt='Program thumbnail' class='w-full h-40 object-cover rounded-xl' />
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>HIIT Power</h3>
+            <p class='text-sm text-gray-600'>Duration: 20 min | Intensity: High</p>
+            <div class='mt-4 flex gap-2'>
+              <a href='membership.html' class='px-4 py-2 rounded-full bg-teal-500 text-black font-semibold hover:bg-teal-600'>Join</a>
+              <a href='programs.html' class='px-4 py-2 rounded-full border border-teal-500 text-teal-500 hover:bg-teal-50'>Learn More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coaches Highlights -->
+    <section class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <h2 class='text-2xl md:text-3xl font-bold mb-6'>Meet Momentum Coaches</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+          <div class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.pexels.com/photos/209852/pexels-photo-209852.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Coach portrait' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Alex Rivera</h3>
+            <p class='text-sm text-gray-600'>Strength & Conditioning</p>
+          </div>
+          <div class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.unsplash.com/photo-1618323656732-351fc336af61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxjb2FjaDJ8ZW58MHwwfHx8MTc2MDg5ODU0Mnww&ixlib=rb-4.1.0&q=80&w=1080' alt='Coach portrait' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Mia Chen</h3>
+            <p class='text-sm text-gray-600'>HIIT & Cardio</p>
+          </div>
+          <div class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.pexels.com/photos/34359733/pexels-photo-34359733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Coach portrait' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Jordan Lee</h3>
+            <p class='text-sm text-gray-600'>Mobility & Rehab</p>
+          </div>
+          <div class='bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.pexels.com/photos/34359733/pexels-photo-34359733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Coach portrait' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold text-gray-800'>Priya Kapoor</h3>
+            <p class='text-sm text-gray-600'>Yoga & Wellness</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Class Schedule Preview -->
+    <section class='py-16 md:py-24 bg-gradient-to-r from-black to-gray-900'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <h2 class='text-2xl md:text-3xl font-bold mb-4'>Upcoming Sessions</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-4'>
+          <div class='bg-white rounded-xl p-4 text-gray-800 shadow-lg'>
+            <h3 class='font-semibold'>Morning Bootcamp</h3>
+            <p class='text-sm'>Mon, Wed, Fri • 6:00 AM</p>
+          </div>
+          <div class='bg-white rounded-xl p-4 text-gray-800 shadow-lg'>
+            <h3 class='font-semibold'>Yoga Flow</h3>
+            <p class='text-sm'>Tue & Thu • 7:30 PM</p>
+          </div>
+          <div class='bg-white rounded-xl p-4 text-gray-800 shadow-lg'>
+            <h3 class='font-semibold'>Power Strength</h3>
+            <p class='text-sm'>Sat • 9:00 AM</p>
+          </div>
+        </div>
+        <div class='mt-6'>
+          <a href='membership.html' class='px-6 py-3 rounded-full bg-teal-500 hover:bg-teal-600 font-semibold'>Join a Program</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <h2 class='text-2xl md:text-3xl font-bold mb-4'>Success Stories</h2>
+        <div class='relative overflow-hidden'>
+          <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            <div class='bg-white rounded-xl shadow-lg p-6'>
+              <p class='text-gray-800'>"I transformed my routine with Momentum. Felt stronger in 12 weeks."</p>
+              <p class='text-sm text-gray-600 mt-2'>- Taylor</p>
+            </div>
+            <div class='bg-white rounded-xl shadow-lg p-6'>
+              <p class='text-gray-800'>"Consistency finally clicked thanks to the coaches."</p>
+              <p class='text-sm text-gray-600 mt-2'>- Priya</p>
+            </div>
+            <div class='bg-white rounded-xl shadow-lg p-6'>
+              <p class='text-gray-800'>"My energy and mobility improved dramatically."</p>
+              <p class='text-sm text-gray-600 mt-2'>- Devon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-black/80 py-6'>
+    <div class='max-w-6xl mx-auto px-4 text-center text-white'>
+      <p class='mb-2'>Ready to start? Choose your program below.</p>
+      <a href='membership.html' class='px-6 py-2 rounded-full bg-teal-500 hover:bg-teal-600 font-semibold'>See Plans</a>
+    </div>
+  </footer>
+</body>
+</html>
