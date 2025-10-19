@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:300,400,500,600,700&family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Momentum Blog</title>
+  <!--  -->
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body style="font-family: 'Inter', sans-serif;" class='bg-black text-white'>
+  <header class='sticky top-0 z-50 bg-black/70 backdrop-blur-md'>
+    <nav class='max-w-6xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='text-2xl font-bold'>Momentum</span>
+        <span class='text-sm text-gray-300 hidden sm:block'>Blog</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6'>
+        <li><a href='index.html' class='hover:text-teal-300'>Home</a></li>
+        <li><a href='programs.html' class='hover:text-teal-300'>Programs</a></li>
+        <li><a href='blog.html' class='hover:text-teal-300'>Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class='relative h-72 md:h-96 w-full overflow-hidden'>
+      <img src='https://pixabay.com/get/g282a23a820731e2e4f140ad2a7c38b0bb78299cac360159e03267b8ba098cc60733c3cd6132637d034e494e453b6e425878b1f60823391a1a740baee018d6e95_640.jpg' alt='Blog hero' class='absolute inset-0 w-full h-full object-cover' />
+      <div class='absolute inset-0 bg-gradient-to-r from-black/60 to-black/80'></div>
+      <div class='relative z-10 max-w-6xl mx-auto px-4 py-12'>
+        <h1 class='text-4xl md:text-5xl font-extrabold'>Momentum Blog</h1>
+        <p class='mt-2 text-lg'>Tips, stories, and science behind better training</p>
+      </div>
+    </section>
+
+    <section class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <article class='bg-white rounded-xl shadow-lg p-4 text-gray-800'>
+            <img src='https://images.pexels.com/photos/4440774/pexels-photo-4440774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Post thumbnail' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-2 text-xl font-semibold'>The Science of Sleep for Performance</h3>
+            <p class='text-sm text-gray-700'>A deep dive into rest and recovery.</p>
+            <a href='blog.html' class='inline-block mt-2 text-teal-600 hover:underline'>Read More</a>
+          </article>
+          <article class='bg-white rounded-xl shadow-lg p-4 text-gray-800'>
+            <img src='https://images.pexels.com/photos/34345478/pexels-photo-34345478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Post thumbnail' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-2 text-xl font-semibold'>Meal Timing That Supports Gains</h3>
+            <p class='text-sm text-gray-700'>Nutrition strategies for workouts and rest days.</p>
+            <a href='blog.html' class='inline-block mt-2 text-teal-600 hover:underline'>Read More</a>
+          </article>
+          <article class='bg-white rounded-xl shadow-lg p-4 text-gray-800'>
+            <img src='https://source.unsplash.com/random/1600x900/?post3' alt='Post thumbnail' class='w-full h-40 object-cover rounded-xl'/>
+            <h3 class='mt-2 text-xl font-semibold'>How to Build Consistency</h3>
+            <p class='text-sm text-gray-700'>Habit formation and momentum.</p>
+            <a href='blog.html' class='inline-block mt-2 text-teal-600 hover:underline'>Read More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4 text-center'>
+        <h2 class='text-2xl md:text-3xl font-bold'>Subscribe for Updates</h2>
+        <p class='text-gray-300 mt-2'>Get tips and stories straight to your inbox</p>
+        <form class='mt-4 flex flex-col sm:flex-row items-center justify-center'>
+          <input type='email' placeholder='Enter email' class='bg-white text-gray-800 rounded-full px-4 py-2 w-full sm:w-auto sm:flex-1' />
+          <button class='ml-2 mt-2 sm:mt-0 px-6 py-2 rounded-full bg-teal-500 text-black font-semibold'>Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-black/80 py-6'>
+    <div class='max-w-6xl mx-auto px-4 text-center text-white'>Momentum Blog Footer</div>
+  </footer>
+</body>
+</html>
