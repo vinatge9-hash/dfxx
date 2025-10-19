@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Momentum Fitness Club - Home</title>
+  <!--  -->
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body style="font-family: 'Poppins', sans-serif;" class='bg-black text-white'>
+  <!-- Sticky Navigation -->
+  <header class='sticky top-0 z-50 bg-black/70 backdrop-blur-md'>
+    <nav class='max-w-6xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <div class='flex items-center space-x-3'>
+        <span class='text-2xl font-bold tracking-tight'>Momentum</span>
+        <span class='text-sm text-gray-300 hidden sm:block'>Fitness Club</span>
+      </div>
+      <ul class='hidden md:flex items-center space-x-6'>
+        <li><a href='index.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Home</a></li>
+        <li><a href='programs.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Programs</a></li>
+        <li><a href='coaches.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Coaches</a></li>
+        <li><a href='facilities.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Facilities</a></li>
+        <li><a href='locations.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Locations</a></li>
+        <li><a href='membership.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Membership</a></li>
+        <li><a href='blog.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Blog</a></li>
+        <li><a href='contact.html' class='hover:text-teal-300 focus:outline-none focus:ring-2 focus:ring-teal-400 rounded'>Contact</a></li>
+      </ul>
+      <a href='membership.html' class='hidden md:inline-block bg-teal-500 hover:bg-teal-600 text-black font-semibold px-4 py-2 rounded-full'>Join Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class='relative h-96 md:h-[520px] w-full overflow-hidden'>
+      <img src='https://pixabay.com/get/g8bed458b720c3caff5c39d65eaad3c4700eb3a189914d1703d0a375483363c39dc0fe8987be2853834b47851fe6ef2e3addf22642ee5d8def2ce0b4053fb1e1f_640.jpg' alt='Momentum hero' class='absolute inset-0 w-full h-full object-cover' />
+      <div class='absolute inset-0 bg-gradient-to-r from-black/60 to-black/80'></div>
+      <div class='relative z-10 max-w-6xl mx-auto px-4 py-16 md:py-32'>
+        <h1 class='text-4xl md:text-5xl font-extrabold uppercase tracking-tight'>Momentum Fitness Club</h1>
+        <p class='mt-4 text-lg md:text-xl text-white/90 max-w-2xl'>Train with purpose. Real results. Community that keeps you moving.</p>
+        <div class='mt-6 flex space-x-4'>
+          <a href='membership.html' class='px-6 py-3 rounded-full bg-teal-500 hover:bg-teal-600 transition-all font-semibold'>Join Now</a>
+          <a href='programs.html' class='px-6 py-3 rounded-full border border-white hover:bg-white/10 transition-all font-semibold'>View Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Finder Preview -->
+    <section aria-label='Location finder' class='py-16 md:py-24'>
+      <div class='max-w-6xl mx-auto px-4'>
+        <h2 class='text-2xl md:text-3xl font-bold mb-4'>Find your Momentum</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch'>
+          <div class='col-span-1 md:col-span-3'>
+            <input type='text' placeholder='Search by city or zip' class='w-full rounded-xl p-3 bg-gray-800 text-white placeholder-gray-400 focus:ring-2 focus:ring-teal-500 focus:outline-none' />
+          </div>
+          <select class='rounded-xl bg-gray-800 text-white p-3'>
+             <option>Within 5 miles</option>
+          </select>
+          <a href='locations.html' class='self-center md:self-start bg-teal-500 hover:bg-teal-600 text-black font-semibold px-4 py-2 rounded-full'>Find Locations</a>
+        </div>
+        <div class='mt-6 grid grid-cols-1 md:grid-cols-3 gap-4'>
+          <div class='bg-white text-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.unsplash.com/photo-1722082839841-45473f5a15cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw3fHxzYW1wbGUlMjBsb2NhdGlvbiUyMHRodW1ifGVufDB8MHx8fDE3NjA4OTg1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Location thumbnail' class='w-full h-32 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold'>Downtown Gym</h3>
+            <p class='text-sm text-gray-600'>Open 5am - 11pm</p>
+          </div>
+          <div class='bg-white text-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://pixabay.com/get/g822e581f7842efe29e1cbe05b5f847757abad9cfcda4a06e2b8f9a847bb48e0ce88d4e20cb8fec0da2c8f2e87d44f274_640.jpg' alt='Location thumbnail' class='w-full h-32 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold'>Riverside Park</h3>
+            <p class='text-sm text-gray-600'>Free parking</p>
+          </div>
+          <div class='bg-white text-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow'>
+            <img src='https://images.unsplash.com/photo-1625774937283-d85622240da0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwzfHxzYW1wbGUlMjBsb2NhdGlvbiUyMHRodW1ifGVufDB8MHx8fDE3NjA4OTg1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Location thumbnail' class='w-full h-32 object-cover rounded-xl'/>
+            <h3 class='mt-4 text-xl font-semibold'>Uptown Studio</h3>
+            <p class='text-sm text-gray-600'>24/7 access</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-black/80 mt-8 py-8'>
+    <div class='max-w-6xl mx-auto px-4 text-center text-white'>
+      <p class='mb-2'>Join Momentum today</p>
+      <a href='membership.html' class='inline-block px-6 py-2 rounded-full bg-teal-500 hover:bg-teal-600 transition-all'>Get Started</a>
+    </div>
+  </footer>
+
+  <script>
+    // placeholder for future interactive elements
+  </script>
+</body>
+</html>
